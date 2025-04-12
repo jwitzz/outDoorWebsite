@@ -65,6 +65,12 @@ body {
     font-weight: 550;
 }
 
+.open-paragraph {
+    font-size: 30px;
+    border: 1px solid black;
+    padding: 30px;
+}
+
 .rock-image {
     display: block;
     margin-left: auto;
