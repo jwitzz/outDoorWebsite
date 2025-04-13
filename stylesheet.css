@@ -1,3 +1,5 @@
+/*-----HOME PAGE-----*/
+
 .top-main-picture {
     width: 100%;
     height: 250px;
@@ -23,6 +25,7 @@ body {
     justify-content: space-around;
     background-color: black;
     border-radius: 15px;
+    margin-top: 50px;
 
 }
 
@@ -32,7 +35,7 @@ body {
 }
 
 .top-links a:hover {
-    color: lightgreen;
+    color: rgb(177, 238, 177);
     text-decoration: underline;
 }
 
@@ -81,6 +84,62 @@ body {
     border: 2px solid green;
     border-radius: 10px;
     margin: 15px;
+}
+
+
+/*-----LOGIN PAGE-----*/
+
+.login-wrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container {
+    border: 2px solid black;
+    width: 800px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box {
+    border: 2px solid green;
+    margin: 15px;
+    width: 500px;
+    height: 600px;
+    border-radius: 15px;
+    background-color: rgb(176, 241, 180);
+
+}
+
+.login-form {
+    
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 30px;
+}
+
+.input-label {
+    display: inline-block;
+    padding: 6px 12px;
+    border: 2px solid green;
+    border-radius: 999px;
+}
+
+.login-form h2 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.login-button {
+    border: 1px solid black;
+    border-radius: 999px;
+    width: 90px;
+    height: 40px;
 }
 
 
