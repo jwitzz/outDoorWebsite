@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login/SignUp</title>
     <link rel="stylesheet" href="stylesheet.css">
+    <title>Contact Us</title>
 </head>
 <body>
+
     <div class="top-main-picture">
         <img src="" alt="">
     </div>
@@ -19,6 +20,7 @@
         <a href="login.html">Login/Sign-Up</a>
     </div>
 
+
     <div class="login-wrapper">
 
         <div class="login-container">
@@ -27,19 +29,24 @@
 
                 <div class="login-form">
 
-                    <h2>Login</h2>
+                    <h2>Contact Us</h2>
                 <div class="input-group">
                 
-                <input type="text" class="input-label" id="username" name="username" required placeholder=" ">
-                <label for="username">Username:</label>
+                <input type="text" class="input-label" id="name" name="name" required placeholder=" ">
+                <label for="name">Name:</label>
                 </div>
-                <div class="input-group">
                 
-                <input type="password" class="input-label" id="password" name="password" required placeholder=" ">
-                <label for="password">Password:</label>
+                <div class="input-group">
+                <input type="email" class="input-label" id="email" name="email" required placeholder=" ">
+                <label for="text">Email:</label>
                 </div>
 
-                <button type="submit" class="login-button">Login</button>
+                <div class="comment-box">
+                    <label for="comments">Cmments:</label></br>
+                    <textarea name="comments" id="comments" rows="6" cols="40" placeholder="write your message here...." required></textarea>
+                </div>
+
+                <button type="submit" class="login-button">Submit</button>
 
                 <p class="signup">Don't have an account? <a href="#">Sign-up</a></p>
                 
